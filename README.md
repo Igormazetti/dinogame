@@ -1,6 +1,6 @@
 # Dio Dino Game
 
-Dino game for Digital Innovation One's challenge, using only JS, HTML and CSS
+Dino game for Digital Innovation One's challenge, using only JavaScript, HTML and CSS.
 
 ![screenshot](example.png?raw=true "screenshot")
 
