@@ -1,0 +1,49 @@
+body {
+  background: #fafafa;
+}
+
+.dino {
+  position: absolute;
+  bottom: 0;
+  background-image: url(dino.png);
+  width: 60px;
+  height: 60px;
+}
+
+.cactus {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  background-image: url(cactus.png);
+}
+
+.game-over {
+  text-align: center;
+  color: #666666;
+  margin-top: 50px;
+  font-family: arial;
+}
+
+@keyframes slideright {
+  /* Keyframes é utilizado para definir etapas de animação */
+  from {
+    background-position: 70000%;
+  }
+  to {
+    background-position: 0%;
+  }
+}
+
+.background {
+  position: absolute;
+  bottom: 0px;
+  background-image: url("background.png");
+  background-repeat: repeat-x;
+  /* se estende infinitamente pelo eixo x, ou sej,a até o fim da tela */
+  animation: slideright 600s infinite linear;
+  /* background se move de maneira infinita à esquerda */
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+}
